@@ -46,5 +46,8 @@ This project is a sentiment analysis tool that scrapes customer reviews from **T
 
 5. Enter a company domain (e.g., amazon.com/ dugood.org) to analyze its reputation.
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 
