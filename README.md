@@ -31,4 +31,20 @@ This project is a sentiment analysis tool that scrapes customer reviews from **T
    ```bash
    git clone https://github.com/your-username/sentiment-analysis-company-reputation-judgement.git
    cd sentiment-analysis-company-reputation-judgement
+   
+2. **Install dependencies**
+    ```bash
+    pip install -r requirements.txt
+
+3. **Run Flask**
+    ```bash
+    python scrapping.py
+
+4. **Run Flask**
+    ```cpp
+    (whatever is the html generated for u)
+
+5. Enter a company domain (e.g., amazon.com/ dugood.org) to analyze its reputation.
+
+
 
