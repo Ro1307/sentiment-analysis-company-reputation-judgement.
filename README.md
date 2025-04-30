@@ -1,17 +1,34 @@
-# sentiment-analysis-company-reputation-judgement.
 # Sentiment-Based Company Reputation Judgement
 
-This project analyzes customer reviews scraped from Trustpilot and determines a company's overall reputation using sentiment analysis. It uses Python, Selenium for scraping, NLTK's VADER for sentiment classification, and Flask for a minimal front-end. Visualizations like histograms, bar charts, and pie charts are generated to showcase sentiment distribution.
+This project is a sentiment analysis tool that scrapes customer reviews from **Trustpilot** and classifies them as positive, negative, or neutral using **VADER (Valence Aware Dictionary and sEntiment Reasoner)** from the NLTK library. The system determines a company's overall **reputation score** based on review sentiment and presents the results with clear **visualizations** using Matplotlib and Seaborn. A minimal **Flask-based frontend** allows users to input a company domain and instantly view reputation insights.
 
-## Features
-- Scrapes real-time reviews from Trustpilot
-- Uses rule-based sentiment analysis (VADER)
-- Provides reputation score and classification (Good/Neutral/Bad)
-- Displays interactive visualizations
-- Flask-based frontend for user input
+---
 
-## How to Run
-1. Clone the repo:
+## 🚀 Features
+
+- 🔍 **Live review scraping** from Trustpilot using Selenium
+- 🧠 **Sentiment analysis** with NLTK's VADER model
+- 📊 **Visual sentiment summaries** with bar graphs, histograms, and pie charts
+- 🌐 **Flask web interface** for user-friendly input
+- 📁 Organized file structure for easy deployment and collaboration
+
+---
+
+## 📦 Tech Stack
+
+- **Python 3.x**
+- **Flask**
+- **Selenium**
+- **NLTK (VADER)**
+- **Matplotlib / Seaborn**
+- **Pandas / NumPy**
+
+---
+
+## 💻 How to Run
+
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/your-username/sentiment-analysis-company-reputation-judgement.git
+   cd sentiment-analysis-company-reputation-judgement
 
